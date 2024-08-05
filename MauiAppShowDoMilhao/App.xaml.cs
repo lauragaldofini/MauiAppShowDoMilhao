@@ -70,7 +70,88 @@ namespace MauiAppShowDoMilhao
                 new Alternativa { Correta = false, Descricao = "Ciro Gomes"},
                 new Alternativa { Correta = true, Descricao = "Pedro Malan"}
 
-            }
+            },
+
+            new Pergunta
+            {
+                Id = 7,
+                Enunciado = "Quem é o inimigo do piu-piu nos esenhos animados?",
+                new Alternativa { Correta = false, Descricao = "Mingau"},
+                new Alternativa { Correta = false, Descricao = "Tom"},
+                new Alternativa { Correta = false, Descricao = "Felix"},
+                new Alternativa { Correta = true, Descricao = "Frajola"}
+            },
+
+            new Pergunta
+            {
+                Id = 8, 
+                Enunciado = "Joana Prado é o nome verdadeiro de qual artista?",
+                new Alternativa { Correta = false, Descricao = "Tiazinha"},
+                new Alternativa { Correta = true, Descricao = "Feiticeira"},
+                new Alternativa { Correta = false, Descricao = "Lady Lu"},
+                new Alternativa { Correta = false, Descricao = "Sheila Mello"}
+            },
+
+             new Pergunta
+            {
+                Id = 9,
+                Enunciado = "Quantos dias tem um ano bissexto?",
+                new Alternativa { Correta = false, Descricao = "364"},
+                new Alternativa { Correta = false, Descricao = "365"},
+                new Alternativa { Correta = true, Descricao = "366"},
+                new Alternativa { Correta = false, Descricao = "367"}
+            },
+
+              new Pergunta
+            {
+                Id = 10,
+                Enunciado = "Qual é a cidade conhecida como a terra da garoa?",
+                new Alternativa { Correta = true, Descricao = "São Paulo"},
+                new Alternativa { Correta = false, Descricao = "Rio de Janeiro"},
+                new Alternativa { Correta = false, Descricao = "Piracicaba"},
+                new Alternativa { Correta = false, Descricao = "Porto Alegre"}
+            },
+
+               new Pergunta
+            {
+                Id = 11,
+                Enunciado = "O violoncelo é um tipo de instrumento de?",
+                new Alternativa { Correta = false, Descricao = "Sopro"},
+                new Alternativa { Correta = false, Descricao = "Repercussão"},
+                new Alternativa { Correta = false, Descricao = "Percussão"},
+                new Alternativa { Correta = true, Descricao = "Cordas"}
+            },
+
+                new Pergunta
+            {
+                Id = 12,
+                Enunciado = "Com que fruta a Branca de Neve foi envenenada?",
+                new Alternativa { Correta = false, Descricao = "Pêra"},
+                new Alternativa { Correta = true, Descricao = "Maçã"},
+                new Alternativa { Correta = false, Descricao = "Melão"},
+                new Alternativa { Correta = false, Descricao = "Laranja"}
+            },
+
+                 new Pergunta
+            {
+                Id = 13,
+                Enunciado = "Qual é a área da medicina que trata de crianças?",
+                new Alternativa { Correta = false, Descricao = "Geriatria"},
+                new Alternativa { Correta = false, Descricao = "Biologia"},
+                new Alternativa { Correta = true, Descricao = "Pediatria"},
+                new Alternativa { Correta = false, Descricao = "Infantologia"}
+            },
+
+                  new Pergunta
+            {
+                Id = 14,
+                Enunciado = "Quem fundou a fábrica de automóveis Ford?",
+                new Alternativa { Correta = false, Descricao = "Gerald Ford"},
+                new Alternativa { Correta = true, Descricao = "Henry Ford"},
+                new Alternativa { Correta = false, Descricao = "Harrison Ford"},
+                new Alternativa { Correta = false, Descricao = "Anna Ford"}
+            },
+
         public App()
         {
             InitializeComponent();
