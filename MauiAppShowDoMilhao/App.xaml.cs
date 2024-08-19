@@ -319,9 +319,267 @@ namespace MauiAppShowDoMilhao
                 }
               },
 
+              new Pergunta
+              {
+                Id = 4,
+                Enunciado = "Que profissional usa uma ferramenta chamada formão?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = true, Descricao = "Carpinteiro"},
+                new Alternativa { Correta = false, Descricao = "Relojoeiro"},
+                new Alternativa { Correta = false, Descricao = "Confeiteiro"},
+                new Alternativa { Correta = false, Descricao = "Bombeiro"}
+
+                }
+              },
 
 
 
+              new Pergunta
+              {
+                Id = 5,
+                Enunciado = "O que é um oboé?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Vulcão"},
+                new Alternativa { Correta = false, Descricao = "Comida"},
+                new Alternativa { Correta = true, Descricao = "Instrumento musical"},
+                new Alternativa { Correta = false, Descricao = "Tribo indígena"}
+
+                }
+              },
+
+
+              new Pergunta
+              {
+                Id = 6,
+                Enunciado = "No filme, quem era parceiro de crimes da Bonnie?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Bill"},
+                new Alternativa { Correta = true, Descricao = "Clyde"},
+                new Alternativa { Correta = false, Descricao = "James"},
+                new Alternativa { Correta = false, Descricao = "Butch"}
+
+                }
+              },
+
+
+              new Pergunta
+              {
+                Id = 7,
+                Enunciado = "Que país europeu tem como atração a tourada?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Itália"},
+                new Alternativa { Correta = true, Descricao = "Espanha"},
+                new Alternativa { Correta = false, Descricao = "França"},
+                new Alternativa { Correta = false, Descricao = "Alemanha"}
+
+                }
+              },
+
+                 new Pergunta
+              {
+                Id = 8,
+                Enunciado = "O que os filatelistas colecionam?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Quadros"},
+                new Alternativa { Correta = false, Descricao = "Moedas"},
+                new Alternativa { Correta = false, Descricao = "Figurinhas"},
+                new Alternativa { Correta = true, Descricao = "Selos"}
+
+                }
+              },
+
+              new Pergunta
+              {
+                Id = 9,
+                Enunciado = "Nova Delhi é a capital de que país?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = true, Descricao = "Índia"},
+                new Alternativa { Correta = false, Descricao = "Islândia"},
+                new Alternativa { Correta = false, Descricao = "Paquistão"},
+                new Alternativa { Correta = false, Descricao = "México"}
+
+                }
+              },
+
+              new Pergunta
+              {
+                Id = 10,
+                Enunciado = "Em que matéria estuda-se álgebra na escola?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Biologia"},
+                new Alternativa { Correta = false, Descricao = "Química"},
+                new Alternativa { Correta = true, Descricao = "Matemática"},
+                new Alternativa { Correta = false, Descricao = "Física"}
+
+                }
+              },
+
+              new Pergunta
+              {
+                Id = 10,
+                Enunciado = "O que é um contratorpedeiro?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Avião de caça"},
+                new Alternativa { Correta = false, Descricao = "Tanque"},
+                new Alternativa { Correta = false, Descricao = "Dirigível"},
+                new Alternativa { Correta = true, Descricao = "Navio de guerra"}
+
+                }
+              },
+
+              new Pergunta
+              {
+                Id = 11,
+                Enunciado = "Qual é o nome do cachorro de Charlie Brown?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Pluto"},
+                new Alternativa { Correta = true, Descricao = "Snoopy"},
+                new Alternativa { Correta = false, Descricao = "Floquinho"},
+                new Alternativa { Correta = false, Descricao = "Baleia"}
+
+                }
+              },
+
+              new Pergunta
+              {
+                Id = 12,
+                Enunciado = "Como é chamado o templo sagrado dos judeus?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Igreja"},
+                new Alternativa { Correta = false, Descricao = "Capela"},
+                new Alternativa { Correta = true, Descricao = "Sinagoga"},
+                new Alternativa { Correta = false, Descricao = "Catedral"}
+
+                }
+              },
+
+              new Pergunta
+              {
+                Id = 13,
+                Enunciado = "O FBI é a polícia federal de qual país?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = true, Descricao = "Estados Unidos"},
+                new Alternativa { Correta = false, Descricao = "Canadá"},
+                new Alternativa { Correta = false, Descricao = "França"},
+                new Alternativa { Correta = false, Descricao = "Inglaterra"}
+
+                }
+              },
+
+
+              new Pergunta
+              {
+                Id = 14,
+                Enunciado = "Em que cidade foram realizados os jogos olímpicos de 2000?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Munique"},
+                new Alternativa { Correta = false, Descricao = "Tóquio"},
+                new Alternativa { Correta = false, Descricao = "Atlanta"},
+                new Alternativa { Correta = true, Descricao = "Sydney"}
+
+                }
+              },
+
+               new Pergunta
+              {
+                Id = 15,
+                Enunciado = "Qual personagem bíblico dividiu as águas do Mar Vermelho?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Abraão"},
+                new Alternativa { Correta = true, Descricao = "Moisés"},
+                new Alternativa { Correta = false, Descricao = "Josué"},
+                new Alternativa { Correta = false, Descricao = "Elias"}
+
+                }
+              },
+
+                List<Pergunta> perguntas_dificeis = new()
+              { 
+              new Pergunta
+              {
+                Id = 1,
+                Enunciado = "Em qual país está localizado o “Muro das lamentações",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Alemanha"},
+                new Alternativa { Correta = false, Descricao = "Brasil"},
+                new Alternativa { Correta = false, Descricao = "Venezuela"},
+                new Alternativa { Correta = true, Descricao = "Israel"}
+
+                }
+              },
+
+              new Pergunta
+              {
+                Id = 2,
+                Enunciado = "Onde nasceu Van Gogh, o grande pintor impressionista?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Polônia"},
+                new Alternativa { Correta = false, Descricao = "França"},
+                new Alternativa { Correta = false, Descricao = "Itália"},
+                new Alternativa { Correta = true, Descricao = "Holanda"}
+
+                }
+              },
+
+              new Pergunta
+              {
+                Id = 5,
+                Enunciado = "Qual é a primeira letra do alfabeto grego?",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Delta"},
+                new Alternativa { Correta = false, Descricao = "Beta"},
+                new Alternativa { Correta = false, Descricao = "Gama"},
+                new Alternativa { Correta = true, Descricao = "Alfa"}
+
+                }
+              },
+
+              new Pergunta
+              {
+                Id = 4,
+                Enunciado = "Os nazistas foram julgados em:",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Berlim"},
+                new Alternativa { Correta = true, Descricao = "Nurembergue"},
+                new Alternativa { Correta = false, Descricao = "Munique"},
+                new Alternativa { Correta = false, Descricao = "Pariz"}
+
+                }
+              },
         public App()
         {
             InitializeComponent();
