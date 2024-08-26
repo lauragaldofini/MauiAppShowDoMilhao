@@ -580,6 +580,194 @@ namespace MauiAppShowDoMilhao
 
                 }
               },
+
+              new Pergunta
+              {
+                Id = 5,
+                Enunciado = "Em que parte do nosso corpo está o úmero?:",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Perna"},
+                new Alternativa { Correta = true, Descricao = "Braço"},
+                new Alternativa { Correta = false, Descricao = "Quadril"},
+                new Alternativa { Correta = false, Descricao = "Coluna"}
+
+                }
+              },
+
+              new Pergunta
+              {
+                Id = 6,
+                Enunciado = "O que significa deprecar?:",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Renegar"},
+                new Alternativa { Correta = false, Descricao = "Sujeitar"},
+                new Alternativa { Correta = false, Descricao = "Desmaiar"},
+                new Alternativa { Correta = true, Descricao = "Pedir"}
+
+                }
+              },
+
+              new Pergunta
+              {
+                Id = 7,
+                Enunciado = "Qual é a religião majoritária da Turquia?:",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Budista"},
+                new Alternativa { Correta = true, Descricao = "Islâmica"},
+                new Alternativa { Correta = false, Descricao = "Católica"},
+                new Alternativa { Correta = false, Descricao = "Protestante"}
+
+                }
+              },
+
+              new Pergunta
+              {
+                Id = 7,
+                Enunciado = "O que construía Stradivarius?:",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Casas"},
+                new Alternativa { Correta = true, Descricao = "Armas"},
+                new Alternativa { Correta = false, Descricao = "Violinos"},
+                new Alternativa { Correta = false, Descricao = "Estradas"}
+
+                }
+              },
+
+
+              new Pergunta
+              {
+                Id = 8,
+                Enunciado = "Qual é o nome dado a um conjunto de sinos?:",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Corrimão"},
+                new Alternativa { Correta = false, Descricao = "Corselete"},
+                new Alternativa { Correta = false, Descricao = "Badalada"},
+                new Alternativa { Correta = true, Descricao = "Carrilhão"}
+
+                }
+              },
+
+
+              new Pergunta
+              {
+                Id = 9,
+                Enunciado = "Qual é o apelido do time da Ponte Preta?:",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Feiticeira"},
+                new Alternativa { Correta = true, Descricao = "Macaca"},
+                new Alternativa { Correta = false, Descricao = "Raposa"},
+                new Alternativa { Correta = false, Descricao = "Bruxa"}
+
+                }
+              },
+
+              new Pergunta
+              {
+                Id = 10,
+                Enunciado = "O que é glicose?:",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Aminoácido"},
+                new Alternativa { Correta = true, Descricao = "Lipídio"},
+                new Alternativa { Correta = false, Descricao = "Proteína"},
+                new Alternativa { Correta = false, Descricao = "Hidrato de carbono"}
+
+                }
+              },
+
+
+              new Pergunta
+              {
+                Id = 11,
+                Enunciado = "As Ilhas Malvinas também são chamadas de:",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Stanley"},
+                new Alternativa { Correta = false, Descricao = "Wedells"},
+                new Alternativa { Correta = true, Descricao = "Falkland"},
+                new Alternativa { Correta = false, Descricao = "Medanosa"}
+
+                }
+              },
+
+
+                new Pergunta
+              {
+                Id = 12,
+                Enunciado = "Em que país Leonardo da Vinci viveu seus últimos dias?:",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = true, Descricao = "França"},
+                new Alternativa { Correta = false, Descricao = "Espanha"},
+                new Alternativa { Correta = false, Descricao = "Holanda"},
+                new Alternativa { Correta = false, Descricao = "Itália"}
+
+                }
+              },
+
+
+              new Pergunta
+              {
+                Id = 13,
+                Enunciado = "Pablo Picasso foi um dos criadores do:",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Surrealismo"},
+                new Alternativa { Correta = true, Descricao = "Cubismo"},
+                new Alternativa { Correta = false, Descricao = "Impressionismo"},
+                new Alternativa { Correta = false, Descricao = "Realismo"}
+
+                }
+              },
+
+               new Pergunta
+              {
+                Id = 14,
+                Enunciado = "Pablo Picasso foi um dos criadores do:",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Felinos"},
+                new Alternativa { Correta = false, Descricao = "Sirênios"},
+                new Alternativa { Correta = true, Descricao = "Cetáceos"},
+                new Alternativa { Correta = false, Descricao = "Carnívoros"}
+
+                }
+              },
+
+               new Pergunta
+              {
+                Id = 15,
+                Enunciado = "Qual é a maior ilha da Europa?:",
+                Alternativas = new[]
+                {
+
+                new Alternativa { Correta = false, Descricao = "Irlanda"},
+                new Alternativa { Correta = false, Descricao = "Sicília"},
+                new Alternativa { Correta = false, Descricao = "Islândia"},
+                new Alternativa { Correta = true, Descricao = "Grã-Bretanha"}
+
+                }
+              },
+
+
+
         public App()
         {
             InitializeComponent();
