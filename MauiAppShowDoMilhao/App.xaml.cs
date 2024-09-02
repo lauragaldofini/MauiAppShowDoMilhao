@@ -504,7 +504,7 @@ namespace MauiAppShowDoMilhao
                 }
               },
 
-               new Pergunta
+              new Pergunta
               {
                 Id = 15,
                 Enunciado = "Qual personagem bíblico dividiu as águas do Mar Vermelho?",
@@ -520,7 +520,7 @@ namespace MauiAppShowDoMilhao
               },
 
                 List<Pergunta> perguntas_dificeis = new()
-              { 
+              {
               new Pergunta
               {
                 Id = 1,
@@ -736,7 +736,7 @@ namespace MauiAppShowDoMilhao
                 }
               },
 
-               new Pergunta
+              new Pergunta
               {
                 Id = 14,
                 Enunciado = "Pablo Picasso foi um dos criadores do:",
@@ -751,7 +751,7 @@ namespace MauiAppShowDoMilhao
                 }
               },
 
-               new Pergunta
+              new Pergunta
               {
                 Id = 15,
                 Enunciado = "Qual é a maior ilha da Europa?:",
@@ -764,14 +764,21 @@ namespace MauiAppShowDoMilhao
                 new Alternativa { Correta = true, Descricao = "Grã-Bretanha"}
 
                 }
-              },
+        }
+                
+    };
 
+                  Public static Pergunta getRandomPerguntaFacil()
+                  {
+
+                  }
 
 
         public App()
         {
             InitializeComponent();
 
+            
             MainPage = new AppShell();
         }
     }
